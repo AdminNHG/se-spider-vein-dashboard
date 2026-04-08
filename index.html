@@ -82,6 +82,9 @@
     .kpi-card.green { border-top-color: #10b981; }
     .kpi-card.purple{ border-top-color: #7c3aed; }
     .kpi-card.orange{ border-top-color: #ea580c; }
+    .kpi-card.teal  { border-top-color: #0d9488; }
+    .kpi-card.rose  { border-top-color: #e11d48; }
+    .kpi-card.amber { border-top-color: #d97706; }
 
     .kpi-card .icon {
       width: 44px; height: 44px;
@@ -94,6 +97,9 @@
     .kpi-card.green .icon { background: #ecfdf5; color: #10b981; }
     .kpi-card.purple .icon{ background: #f5f3ff; color: #7c3aed; }
     .kpi-card.orange .icon{ background: #fff7ed; color: #ea580c; }
+    .kpi-card.teal  .icon { background: #f0fdfa; color: #0d9488; }
+    .kpi-card.rose  .icon { background: #fff1f2; color: #e11d48; }
+    .kpi-card.amber .icon { background: #fffbeb; color: #d97706; }
 
     .kpi-card .label {
       font-size: .75rem;
@@ -113,6 +119,9 @@
     .kpi-card.green .value { color: #059669; }
     .kpi-card.purple .value{ color: #6d28d9; }
     .kpi-card.orange .value{ color: #c2410c; }
+    .kpi-card.teal  .value { color: #0d9488; }
+    .kpi-card.rose  .value { color: #e11d48; }
+    .kpi-card.amber .value { color: #d97706; }
 
     .kpi-card .desc {
       font-size: .78rem;
@@ -351,8 +360,37 @@
     <div class="kpi-card orange">
       <div class="icon">💰</div>
       <div class="label">Proxy CPAP</div>
-      <div class="value">1.517 DKK</div>
-      <div class="desc">Spend / Conversions (39.434 / 26)</div>
+      <div class="value">932 DKK</div>
+      <div class="desc">Spend / Conversions (24.230 / 26)</div>
+    </div>
+  </div>
+
+  <!-- ── BILLING VALUE CARDS ── -->
+  <div style="margin-bottom:8px;font-size:.78rem;text-transform:uppercase;letter-spacing:.7px;color:#6b7280;font-weight:600;">Faktureringsværdi – næste aftale (SEK)</div>
+  <div class="kpi-grid" style="margin-bottom:32px;">
+    <div class="kpi-card teal">
+      <div class="icon">🦷</div>
+      <div class="label">Faktureringsværdi Pre Exam</div>
+      <div class="value">8.050 SEK</div>
+      <div class="desc">23 förundersökningar × 350 SEK</div>
+    </div>
+    <div class="kpi-card rose">
+      <div class="icon">🩸</div>
+      <div class="label">Faktureringsværdi Spiderveins</div>
+      <div class="value">7.900 SEK</div>
+      <div class="desc">2 Ådernätbehandlingar × 3.950 SEK</div>
+    </div>
+    <div class="kpi-card amber">
+      <div class="icon">💉</div>
+      <div class="label">Faktureringsværdi Treatments</div>
+      <div class="value">36.500 SEK</div>
+      <div class="desc">1 Fleb./Skum och Laser 2 ben (36.5)</div>
+    </div>
+    <div class="kpi-card" style="border-top-color:#64748b;background:#f8fafc;">
+      <div class="icon" style="background:#f1f5f9;font-size:20px;">∑</div>
+      <div class="label" style="color:#475569;">Total Faktureringsværdi</div>
+      <div class="value" style="color:#334155;font-size:2rem;">52.450 SEK</div>
+      <div class="desc">Pre exam + Spiderveins + Treatments</div>
     </div>
   </div>
 
