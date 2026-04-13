@@ -342,26 +342,26 @@
     <div class="kpi-card blue">
       <div class="icon">🎯</div>
       <div class="label">Conversions</div>
-      <div class="value">36</div>
+      <div class="value">39</div>
       <div class="desc">Clients acquired via spider campaign</div>
     </div>
     <div class="kpi-card green">
       <div class="icon">📋</div>
       <div class="label">Total Leads</div>
-      <div class="value">282</div>
+      <div class="value">358</div>
       <div class="desc">Total leads in pipeline</div>
     </div>
     <div class="kpi-card purple">
       <div class="icon">📈</div>
       <div class="label">Conversion Rate</div>
-      <div class="value">12.8%</div>
-      <div class="desc">Lead → Conversion (36 / 282)</div>
+      <div class="value">10.9%</div>
+      <div class="desc">Lead → Conversion (39 / 358)</div>
     </div>
     <div class="kpi-card orange">
       <div class="icon">💰</div>
       <div class="label">Proxy CPAP</div>
-      <div class="value">833 DKK</div>
-      <div class="desc">Spend / Conversions (30.000 / 36)</div>
+      <div class="value">1.026 DKK</div>
+      <div class="desc">Spend / Conversions (40.000 / 39)</div>
     </div>
   </div>
 
@@ -383,7 +383,7 @@
       <div class="pipeline-grid">
         <div class="pipeline-item">
           <div class="pi-label">Pre-exam 15 min</div>
-          <div class="pi-val">9</div>
+          <div class="pi-val">8</div>
           <div class="pi-sub">Next appointment</div>
         </div>
         <div class="pipeline-item">
@@ -393,7 +393,7 @@
         </div>
         <div class="pipeline-item">
           <div class="pi-label">Treatment Booked</div>
-          <div class="pi-val">6</div>
+          <div class="pi-val">9</div>
           <div class="pi-sub">SVT or Phlebology</div>
         </div>
       </div>
@@ -404,7 +404,7 @@
           <!-- Leads bar -->
           <div>
             <div style="display:flex;justify-content:space-between;font-size:.78rem;color:#6b7280;margin-bottom:5px;">
-              <span>Total Leads</span><span style="font-weight:700;color:#111">282</span>
+              <span>Total Leads</span><span style="font-weight:700;color:#111">358</span>
             </div>
             <div style="background:#e5e7eb;border-radius:99px;height:10px;">
               <div style="background:#d1d5db;border-radius:99px;height:10px;width:100%;"></div>
@@ -413,19 +413,19 @@
           <!-- Conversions bar -->
           <div>
             <div style="display:flex;justify-content:space-between;font-size:.78rem;color:#6b7280;margin-bottom:5px;">
-              <span>Conversions</span><span style="font-weight:700;color:#1d4ed8">36</span>
+              <span>Conversions</span><span style="font-weight:700;color:#1d4ed8">39</span>
             </div>
             <div style="background:#e5e7eb;border-radius:99px;height:10px;">
-              <div style="background:#2563eb;border-radius:99px;height:10px;width:12.77%;"></div>
+              <div style="background:#2563eb;border-radius:99px;height:10px;width:10.89%;"></div>
             </div>
           </div>
           <!-- All converted clients have next appointment -->
           <div>
             <div style="display:flex;justify-content:space-between;font-size:.78rem;color:#6b7280;margin-bottom:5px;">
-              <span>Next Appointment Booked</span><span style="font-weight:700;color:#059669">29</span>
+              <span>Next Appointment Booked</span><span style="font-weight:700;color:#059669">31</span>
             </div>
             <div style="background:#e5e7eb;border-radius:99px;height:10px;">
-              <div style="background:#10b981;border-radius:99px;height:10px;width:10.28%;"></div>
+              <div style="background:#10b981;border-radius:99px;height:10px;width:8.66%;"></div>
             </div>
           </div>
         </div>
@@ -436,7 +436,7 @@
 
   <!-- ── CLIENT TABLE ── -->
   <div class="card">
-    <div class="section-title">All Conversions &ndash; Client Detail (36 clients)</div>
+    <div class="section-title">All Conversions &ndash; Client Detail (39 clients)</div>
     <div class="table-wrap">
       <table>
         <thead>
@@ -456,48 +456,51 @@
 </main>
 
 <footer>
-  SE Spider Vein Campaign · Nordic Health Group · Data source: Pabau Analytics · Updated April 10, 2026
+  SE Spider Vein Campaign · Nordic Health Group · Data source: Pabau Analytics · Updated April 13, 2026
 </footer>
 
 <script>
   // ── DATA ──────────────────────────────────────────────────────────────
   const clients = [
-    { name: "Therese Paugart",           last: "Pre-exam + duplex scan",  next: "",                                   nextDate: "" },
+    { name: "Therese Paugart",           last: "Pre-exam + duplex scan",  next: "Spider Vein Treatment",              nextDate: "04/05/2026 15:30" },
     { name: "Catharina Holmström",       last: "",                        next: "Pre-examination 20 min",             nextDate: "05/05/2026 10:40" },
     { name: "Malin Hjalmarsson",         last: "Pre-examination 20 min",  next: "Phlebology / Foam & Laser (2 legs)", nextDate: "27/05/2026 10:00" },
     { name: "Theres Herö",               last: "",                        next: "Pre-examination 20 min",             nextDate: "22/05/2026 12:30" },
     { name: "Linnea Hedström",           last: "",                        next: "Pre-examination 20 min",             nextDate: "25/05/2026 17:40" },
+    { name: "Marie Ivkovic Lindén",      last: "Pre-examination",          next: "",                                   nextDate: "" },
     { name: "Emma Söderlind",            last: "Pre-examination 15 min",  next: "Phlebology / Foam & Laser (2 legs)", nextDate: "17/04/2026 10:35" },
     { name: "Alin Alin",                 last: "",                        next: "Pre-examination 15 min",             nextDate: "16/04/2026 15:10" },
     { name: "Linda Wärme",               last: "",                        next: "Pre-examination 20 min",             nextDate: "22/04/2026 09:40" },
     { name: "Marie Granlund",            last: "",                        next: "Pre-examination 15 min",             nextDate: "16/04/2026 11:05" },
     { name: "Monica Bornudd",            last: "",                        next: "Pre-examination 20 min",             nextDate: "22/05/2026 11:55" },
-    { name: "Glenn Alenäs",              last: "",                        next: "Pre-examination 20 min",             nextDate: "10/04/2026 12:55" },
-    { name: "Ulrik Isleborn",            last: "",                        next: "Pre-examination 20 min",             nextDate: "10/04/2026 14:00" },
+    { name: "Glenn Alenäs",              last: "Pre-examination 20 min",  next: "",                                   nextDate: "" },
+    { name: "Ulrik Isleborn",            last: "Pre-examination 20 min",  next: "",                                   nextDate: "" },
     { name: "Mesutnino Korkmaz",         last: "",                        next: "Pre-examination 15 min",             nextDate: "16/04/2026 15:40" },
     { name: "Pirjo Korhola",             last: "",                        next: "Pre-examination 15 min",             nextDate: "23/04/2026 14:15" },
     { name: "Sara Nilsson",              last: "",                        next: "Pre-examination 20 min",             nextDate: "23/04/2026 11:30" },
     { name: "Claes Valberg",             last: "",                        next: "Pre-examination 15 min",             nextDate: "20/04/2026 14:00" },
     { name: "Rebecka Landberg",          last: "",                        next: "Pre-examination 20 min",             nextDate: "28/04/2026 12:30" },
     { name: "Sandra Berg",               last: "Pre-examination 20 min",  next: "Spider Vein Treatment",              nextDate: "25/05/2026 18:20" },
-    { name: "Helene Westin-Pettersson",  last: "",                        next: "Pre-examination 15 min",             nextDate: "10/04/2026 14:15" },
+    { name: "Helene Westin-Pettersson",  last: "Pre-examination 15 min",  next: "Spider Vein Treatment",              nextDate: "27/04/2026 14:00" },
     { name: "Mathilda Frick",            last: "",                        next: "Pre-examination 20 min",             nextDate: "04/05/2026 10:55" },
     { name: "Inger Johanne Lövenskiold", last: "",                        next: "Spider Vein Treatment",              nextDate: "17/04/2026 12:30" },
-    { name: "Eva Granbohm",              last: "",                        next: "Spider Vein Treatment",              nextDate: "13/04/2026 11:15" },
+    { name: "Eva Granbohm",              last: "",                        next: "Spider Vein Treatment",              nextDate: "13/04/2026 14:45" },
     { name: "Susanne Karlsson",          last: "",                        next: "Pre-examination 20 min",             nextDate: "27/04/2026 13:45" },
     { name: "Hans Hoffman",              last: "",                        next: "",                                   nextDate: "" },
     { name: "Anna-Stina Svedlund",       last: "",                        next: "Pre-examination 20 min",             nextDate: "28/04/2026 13:20" },
     { name: "Gabriela Björnkill",        last: "",                        next: "Pre-examination 20 min",             nextDate: "21/04/2026 10:20" },
     { name: "Maja Norling",              last: "",                        next: "",                                   nextDate: "" },
     { name: "Kjell Jonsson",             last: "Pre-examination 20 min",  next: "",                                   nextDate: "" },
-    { name: "Mats Larsson",              last: "",                        next: "Pre-examination 15 min",             nextDate: "10/04/2026 10:05" },
+    { name: "Mats Larsson",              last: "Pre-examination 15 min",  next: "Phlebology / Foam & Laser (1 leg)",  nextDate: "07/05/2026 09:35" },
     { name: "Alexandra Ghanim",          last: "",                        next: "Pre-examination 15 min",             nextDate: "07/05/2026 13:40" },
     { name: "Carin Carlgren",            last: "",                        next: "Spider Vein Treatment",              nextDate: "20/04/2026 13:00" },
     { name: "Suzanne Fritz",             last: "",                        next: "Pre-examination 15 min",             nextDate: "17/04/2026 13:15" },
     { name: "Nada Somers",               last: "",                        next: "Pre-examination 20 min",             nextDate: "20/04/2026 09:00" },
-    { name: "Ann-Louise Ulvenvall",      last: "",                        next: "",                                   nextDate: "" },
-    { name: "Annika Johansson",          last: "",                        next: "",                                   nextDate: "" },
-    { name: "Thamira Hadi",              last: "",                        next: "",                                   nextDate: "" },
+    { name: "Ann-Louise Ulvenvall",      last: "",                        next: "Pre-examination 20 min",             nextDate: "29/04/2026 09:10" },
+    { name: "Annika Johansson",          last: "",                        next: "Pre-examination 15 min",             nextDate: "13/04/2026 14:00" },
+    { name: "Thamira Hadi",              last: "",                        next: "Pre-examination 20 min",             nextDate: "29/04/2026 11:40" },
+    { name: "Bo Eriksson",               last: "",                        next: "",                                   nextDate: "" },
+    { name: "Marie Ivkovic",             last: "",                        next: "",                                   nextDate: "" },
   ];
 
   // ── SERVICE PILL ──────────────────────────────────────────────────────
@@ -540,10 +543,10 @@
 
   // ── DONUT CHART ──────────────────────────────────────────────────────
   const serviceData = [
-    { label: 'Pre-exam 15 min',           count: 9,  color: '#2563eb' },
+    { label: 'Pre-exam 15 min',           count: 8,  color: '#2563eb' },
     { label: 'Pre-exam 20 min',           count: 14, color: '#10b981' },
-    { label: 'Spider Vein Treatment',     count: 4,  color: '#7c3aed' },
-    { label: 'Phlebology / Foam & Laser', count: 2,  color: '#f59e0b' },
+    { label: 'Spider Vein Treatment',     count: 6,  color: '#7c3aed' },
+    { label: 'Phlebology / Foam & Laser', count: 3,  color: '#f59e0b' },
   ];
 
   const ctx = document.getElementById('serviceChart').getContext('2d');
